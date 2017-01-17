@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xVS-10-uip">
+                                <rect key="frame" x="125" y="279.5" width="125" height="29.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="PId-Wc-2qD"/>
+                                    <constraint firstAttribute="width" constant="125" id="mJp-xT-pyz"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="to" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FcE-f9-jsq">
+                                <rect key="frame" x="176" y="319" width="22.5" height="29.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="23" id="Xfc-FM-MU1"/>
+                                    <constraint firstAttribute="height" constant="30" id="pVw-W7-eVI"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Phone Interview Simulator" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6bf-s3-o5J">
+                                <rect key="frame" x="27.5" y="358.5" width="320" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="320" id="OeR-6f-VU7"/>
+                                    <constraint firstAttribute="height" constant="21" id="bXE-K3-RgP"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="By Ebubekir Ogden" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rei-hi-4oj">
+                                <rect key="frame" x="95" y="622" width="185" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="25" id="3KN-Ew-QDk"/>
+                                    <constraint firstAttribute="width" constant="185" id="CyY-Bm-lCA"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.59616191279999997" blue="0.54134024619999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="6bf-s3-o5J" firstAttribute="top" secondItem="FcE-f9-jsq" secondAttribute="bottom" constant="10" id="1du-80-7cJ"/>
+                            <constraint firstItem="FcE-f9-jsq" firstAttribute="top" secondItem="xVS-10-uip" secondAttribute="bottom" constant="10" id="4Tk-L1-OAs"/>
+                            <constraint firstItem="6bf-s3-o5J" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="D7x-jD-h4f"/>
+                            <constraint firstItem="FcE-f9-jsq" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="Vyk-0W-qPZ"/>
+                            <constraint firstItem="rei-hi-4oj" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="dxV-9K-2nF"/>
+                            <constraint firstItem="xVS-10-uip" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="hkJ-av-jLT"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="rei-hi-4oj" secondAttribute="bottom" constant="20" id="lCl-QX-cos"/>
+                            <constraint firstItem="FcE-f9-jsq" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="vPd-X9-oli"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+</document>
