@@ -1,5 +1,4 @@
 <h1>Phone Interview Helper Simulator </h1>
-<hr>
 Phone Interview Helper SImulator with IBM Tone Analyzer
 
 A phone interview simulator application for candidates with IBM Tone Analyzer.
