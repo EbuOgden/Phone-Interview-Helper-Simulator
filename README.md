@@ -1,7 +1,6 @@
 <h1>Phone Interview Helper Simulator </h1>
-Phone Interview Helper SImulator with IBM Tone Analyzer
 
-A phone interview simulator application for candidates with IBM Tone Analyzer.
+A phone interview simulator mobile application for candidates with IBM Tone Analyzer.
 
 This system can helps candidates to improve their phone interview skills by asking questions and analyzing their answers with IBM Tone Analyzer. 
 
