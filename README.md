@@ -8,8 +8,8 @@ They can see their analyze on graphs in real time such as emotion tones, languag
 
 <b> Used Technologies </b>
 <li> IBM Tone Analyzer </li>
-<li> IBM Text to Speech API </li>
-<li> IBM Speech to Text API </li>
+<li> IBM Text to Speech iOS SDK </li>
+<li> IBM Speech to Text iOS SDK</li>
 
 <b> Languages </b>
 <li> Swift </li>
