@@ -2,7 +2,7 @@
 
 A phone interview simulator mobile application for candidates with IBM Tone Analyzer.
 
-This system can helps candidates to improve their phone interview skills by asking questions and analyzing their answers with IBM Tone Analyzer. 
+This system can help candidates to improve their phone interview skills by asking questions and analyzing their answers with IBM Tone Analyzer. 
 
 They can see their analyze on graphs in real time such as emotion tones, language tones and social tones from that informations and they can improve their communication skills and also they can improve message effectiveness.
 
